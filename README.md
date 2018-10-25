@@ -6,12 +6,12 @@
 npm i tslint-config-prettier -D
 npm i prettier -D
 ```
-Установить плагин для IDE
+Установить prettier плагин для IDE
 
 Если используется IntelliJ, то установить [File Watcher](https://www.jetbrains.com/help/phpstorm/settings-tools-file-watchers.html) для форматирования при сохранении файла.
 Далее зайти в настройки `Ctrl+Alt+S` -> Tools -> File Watcher -> + -> Prettier -> Выбрать TypeScript
 
-Если VS Code, то установить prettier. В пользовательских настройках добавить `"editor.formatOnSave": true`
+Если VS Code, то в пользовательских настройках добавить `"editor.formatOnSave": true`
 
 Добавить в конец файла tslint.json 
 ```
